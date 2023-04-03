@@ -7,7 +7,7 @@ import shoppingCart from '@icons/icon_shopping_cart.svg';
 
 const Header = () => {
 	return (
-		<nav>
+		<nav className="Header">
 			<img src={menu} alt="menu" className="menu" />
 			<div className="navbar-left">
 				<img src={logo} alt="logo" className="logo" />
